@@ -1,0 +1,45 @@
+.navbar-inverse{
+    background-color: #103679;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus{
+    background-color: #103679;
+}
+
+.navbar-brand img{
+    width: 130px;
+}
+
+@media (min-width: 768px){
+    .navbar {
+        border-radius: 0;
+    }
+
+    .navbar-inverse .navbar-collapse{
+        padding-top: 30px;
+    }
+
+    .navbar{
+        min-height: 80px;
+    }
+}
+
+@media (max-width: 767px){
+    .navbar-brand{
+        padding: 4px;
+    }
+
+    .navbar-brand img{
+        width: 43px;
+    }
+}
+
+.main-container{
+    margin-top: 75px;
+}
+
+th, td{
+    text-align: center;
+}
