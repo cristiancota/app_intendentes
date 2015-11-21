@@ -31,7 +31,7 @@ class Intendentes extends Controller
     public function index()
     {
         $data = Intendente::orderBy('updated_at', 'desc')
-            ->paginate(1000);
+            ->paginate(10);
         return view("uson.intendentes.index", compact("data"));
     }
 

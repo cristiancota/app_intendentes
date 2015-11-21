@@ -1,6 +1,5 @@
 $(document).ready(function () {
 
-
     /* this function makes dropdown when its above the mouse */
     function HooverDroopDown() {
         $('ul.nav li.dropdown').hover(
@@ -22,7 +21,7 @@ $(document).ready(function () {
 
 
     }
-    /*this fucntion highlight the li > a off the navbar */
+    this fucntion highlight the li > a off the navbar 
     function HooverNav() {
         $('ul.nav > li').hover(
                 function () {
@@ -45,7 +44,7 @@ $(document).ready(function () {
 
     AlertSideUp();
     AlertModal();
-    HooverDroopDown();
+    // HooverDroopDown();
     highlightNav();
     HooverNav();
 

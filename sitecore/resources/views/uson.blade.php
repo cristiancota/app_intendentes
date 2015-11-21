@@ -55,22 +55,17 @@
     /*
         constructor
      */
-    function alert()
-    {
+    function alert(){
         this.alertModal();
         this.alertSideup();
     }
 
-    alert.prototype.alertModal = function()
-    {
+    alert.prototype.alertModal = function(){
         $('#flash-overlay-modal').modal();
     }
-    alert.prototype.alertSideup = function()
-    {
+    alert.prototype.alertSideup = function(){
         $("div.alert").not(".alert-important").delay(3000).slideUp();
     }
-
-
 
     /* this function makes dropdown when its above the mouse */
     function HooverDroopDown() {
@@ -83,8 +78,6 @@
                 }
         );//hover
     }
-
-
     new alert();
 
     HooverDroopDown();

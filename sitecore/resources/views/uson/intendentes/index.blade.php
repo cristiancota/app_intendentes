@@ -8,7 +8,7 @@
 
                 <tr>
                     <th>
-                        Numero Intendente
+                        Número Intendente
                     </th>
                     <th>
                         Nombre
@@ -17,13 +17,13 @@
                         Apellidos
                     </th>
                     <th>
-                        Cel
+                        Celular
                     </th>
                     <th>
                         <i class="fa fa-edit"></i>
                     </th>
                     <th>
-                        <i class="fa fa-plus"></i>
+                        <i class="fa fa-remove"></i>
                     </th>
                 </tr>
                 </thead>
@@ -47,7 +47,7 @@
 
                             <td>
                                 <a class=" btn btn-sm btn-success "
-                                   href="{{ url('intendentes/'.$d->id.'/edit') }}">Edit
+                                   href="{{ url('intendentes/'.$d->id.'/edit') }}">Editar
                                 </a>
                             </td>
                             <td>
