@@ -3,16 +3,17 @@
 @section('main')
     <div class="row">
 
-        <div class="col-lg-12">
+        <div class="col-md-6 col-md-offset-3">
             {!! Form::open(['url'=>'edificios', 'method'=>'POST', 'class'=>'tab-pane active', 'id'=>'home' ]) !!}
 
+            <legend>Registro de edificios</legend>
             <div class="form-group">
                 <label for="nombreActividadRegistro">Nombre del edificio</label>
                 <input name="nombre" type="text" id="nombreActividadRegistro" class="form-control"
                         value="{{old("nombre")}}">
             </div>
 
-            {!! Form::submit('Guardar!',['class' => 'btn btn-info']) !!}
+            {!! Form::submit('Gurdar',['class' => 'btn btn-info']) !!}
 
             {!! Form::close() !!}
         </div>

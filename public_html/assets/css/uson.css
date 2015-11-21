@@ -9,6 +9,10 @@ html, body, p, a, li, td, th, h1, h2, h3, h4, h5, h6, button{
     font-family: 'Open Sans', sans-serif;
 }
 
+body{
+    padding-bottom: 60px;
+}
+
 .navbar-inverse{
     background-color: #103679;
 }
@@ -55,6 +59,9 @@ th, td{
     }
     .main-navbar .dropdown-menu{
         top: 64px;
+    }
+    .main-navbar .dropdown-toggle{
+        height: 64px;
     }
 }
 

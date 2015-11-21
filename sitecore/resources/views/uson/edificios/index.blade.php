@@ -15,7 +15,7 @@
                         <i class="fa fa-edit"></i>
                     </th>
                     <th>
-                        <i class="fa fa-plus"></i>
+                        <i class="fa fa-remove"></i>
                     </th>
                 </tr>
                 </thead>

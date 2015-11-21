@@ -27,7 +27,7 @@
                         <label for="nombreActividadRegistro">Nombre de actividad</label>
                         <input name="nom_tarea" type="text" id="nombreActividadRegistro" class="form-control">
                     </div>
-                    {!! Form::submit('Guardar!',['class' => 'btn btn-info']) !!}
+                    {!! Form::submit('Gurdar',['class' => 'btn btn-info']) !!}
 
                     {!! Form::close() !!}
                 </div>

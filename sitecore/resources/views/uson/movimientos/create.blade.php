@@ -15,7 +15,7 @@
             <div class="form-group">
                 <div class="row">
                     <div class="col-md-4">
-                        <label for="">Selecion de Dia</label>
+                        <label for="">Día</label>
                         <select name="dia" id="" class="form-control">
                             <option selected="selected" value="lunes">Lunes</option>
                             <option value="martes">Martes</option>
@@ -26,7 +26,7 @@
                     </div>
 
                     <div class="col-md-4">
-                        <label for="">Selecion de edificio:</label>
+                        <label for="">Edificio:</label>
                         <select name="edificio_id" class="form-control" id="sel1">
                             @inject('result','App\Http\Controllers\Edificios')
                             @foreach($result->all() as $r)
@@ -35,7 +35,7 @@
                         </select>
                     </div>
                     <div class="col-md-4">
-                        <label for="">Selecion de planta:</label>
+                        <label for="">Planta:</label>
                         <select name="planta_id" class="form-control" id="sel1">
                             @inject('result','App\Http\Controllers\Plantas')
                             @foreach($result->all() as $r)
@@ -47,7 +47,7 @@
             </div>
             <!--Tareas-->
             <div class="form-group">
-                <label>Seleciona Las Tareas:</label>
+                <label>Tareas:</label>
 
                 <div class="row">
                     <div class="col-xs-5">
@@ -81,11 +81,11 @@
 
             <!--Tareas-->
             <div class="form-group">
-                <label>Asigna Un Intendente:</label>
+                <label>Seleccione un intendente:</label>
 
                 <div class="row">
                     <div class="col-xs-5">
-                        <label>Disponinles</label>
+                        <label>Disponibles</label>
                         <select name="from[]" id="multiselect1" class="form-control" size="8" multiple="multiple">
                             @inject('result','App\Http\Controllers\Intendentes')
                             @foreach($result->all() as $r)
@@ -108,7 +108,7 @@
                     </div>
 
                     <div class="col-xs-5">
-                        <label>Selecionados:</label>
+                        <label>Seleccionados:</label>
                         <select name="intendente_id" id="multiselect1_to" class="form-control" size="8"
                                 multiple="multiple"></select>
                     </div>
@@ -116,7 +116,7 @@
             </div>
 
 
-            {!! Form::submit('Guardar!',['class' => 'btn btn-info']) !!}
+            {!! Form::submit('Gurdar',['class' => 'btn btn-info']) !!}
             {!! Form::close() !!}
         </div>
     </div>

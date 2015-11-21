@@ -2,7 +2,7 @@
 @section('title','Registrar usuario')
 @section('main')
     <div class="row">
-        <div class="col-lg-12">
+        <div class="col-md-6 col-md-offset-3">
             {!! Form::open(array('url'=>'usuarios','method'=>'POST')) !!}
             <legend>Registro de Usuarios</legend>
             <div class="form-group">

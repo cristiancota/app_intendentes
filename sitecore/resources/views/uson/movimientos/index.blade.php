@@ -8,7 +8,7 @@
 
                 <tr>
                     <th>
-                        Creeada
+                        Creada
                     </th>
                     <th>
                         <i class="fa fa-calendar"></i>
