@@ -1,5 +1,5 @@
 @extends('uson')
-@section('title','')
+@section('title','Editar planta')
 @section('main')
     <div class="row">
         <div class="col-lg-12">
@@ -12,7 +12,7 @@
                        value="{{$data->nombre or old("nombre")}}">
             </div>
 
-            {!! Form::submit('Agregar !',['class' => 'btn btn-info']) !!}
+            {!! Form::submit('Agregar',['class' => 'btn btn-info']) !!}
 
             {!! Form::close() !!}
 

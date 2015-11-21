@@ -1,5 +1,5 @@
 @extends('uson')
-@section('title','')
+@section('title','Nueva tarea')
 @section('main')
     <div class="row">
         <div class="col-lg-12">
@@ -10,7 +10,7 @@
                 <label for="nombreActividadRegistro">Nombre de actividad</label>
                 <input name="nom_tarea" type="text" id="nombreActividadRegistro" class="form-control" value="{{$data->nom_tarea or old()}}">
             </div>
-            {!! Form::submit('Agregar !',['class' => 'btn btn-info']) !!}
+            {!! Form::submit('Agregar',['class' => 'btn btn-info']) !!}
 
             {!! Form::close() !!}
 

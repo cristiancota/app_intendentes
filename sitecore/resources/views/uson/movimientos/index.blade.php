@@ -1,5 +1,5 @@
 @extends('uson')
-@section('title','')
+@section('title','Movimientos')
 @section('main')
     <div class="row">
         <div class="col-lg-12">

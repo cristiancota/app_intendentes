@@ -1,5 +1,5 @@
 @extends('uson')
-@section('title','')
+@section('title','Registrar usuario')
 @section('main')
     <div class="row">
         <div class="col-lg-12">
@@ -25,7 +25,7 @@
                 <label for="nombreActividadInput">Confirmar Contrase&ntilde;a</label>
                 <input name="password_confirmation" type="text"  id="nombreActividadInput" class="form-control" >
             </div>
-            {!! Form::submit('Agregar !',['class' => 'btn btn-info']) !!}
+            {!! Form::submit('Agregar',['class' => 'btn btn-info']) !!}
 
             {!! Form::close() !!}
         </div>

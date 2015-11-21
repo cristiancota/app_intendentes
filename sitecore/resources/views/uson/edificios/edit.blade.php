@@ -1,5 +1,5 @@
 @extends('uson')
-@section('title','')
+@section('title','Editar edificio')
 @section('main')
     <div class="row">
         <div class="col-lg-12">
@@ -13,7 +13,7 @@
             </div>
 
 
-            {!! Form::submit('Agregar !',['class' => 'btn btn-info']) !!}
+            {!! Form::submit('Agregar',['class' => 'btn btn-info']) !!}
 
             {!! Form::close() !!}
 

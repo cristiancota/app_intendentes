@@ -100,7 +100,7 @@
                 <li>
                     <a href="{{url("/auth/logout")}}">
                     <button class="btn btn-default">
-                       salir
+                        Salir
                     </button>
                     </a>
                 </li>

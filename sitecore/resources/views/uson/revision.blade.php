@@ -54,7 +54,7 @@
                         <label for="nombreActividadInput">Numero Celular del intendente</label>
                         <input name="cel" type="number" id="nombreActividadInput" class="form-control" value="{{old("cel")}}">
                     </div>
-                    {!! Form::submit('Agregar !',['class' => 'btn btn-info']) !!}
+                    {!! Form::submit('Agregar',['class' => 'btn btn-info']) !!}
 
                     {!! Form::close() !!}
 

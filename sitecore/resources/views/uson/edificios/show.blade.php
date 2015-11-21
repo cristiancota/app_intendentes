@@ -37,7 +37,7 @@
                 </div>
             </div>
 
-            {!! Form::submit('Agregar !',['class' => 'btn btn-info']) !!}
+            {!! Form::submit('Agregar',['class' => 'btn btn-info']) !!}
 
             {!! Form::close() !!}
 
